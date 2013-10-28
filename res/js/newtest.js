@@ -10,11 +10,11 @@
     }
 	
 //右侧边栏浮动效果
-function aa(){
-var obj=document.getElementById("two");
+function aa(strId){
+var obj=document.getElementById(strId);
 obj.style.visibility="visible";
 }
-function bb(){
-var obj=document.getElementById("two");
+function bb(strId){
+var obj=document.getElementById(strId);
 obj.style.visibility="hidden";
 }
