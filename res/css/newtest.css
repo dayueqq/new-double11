@@ -34,7 +34,6 @@ a,img
 body {
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
 	background:url(../img/navBackground.jpg) repeat;
-
 }
 
 .mini-head{
@@ -608,6 +607,7 @@ body {
 	font-weight:normal;
 	color:#333333;
 	position:relative;
+	border-bottom:solid #CCC thin;
 }
 .my_left_category .h2_cat_1
 {
