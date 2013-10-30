@@ -49,7 +49,7 @@ body {
 .banner img
 {
 	width:100%;
-	height:100%;
+	height:293px;
 }
 
 .procedure-div-left
@@ -530,9 +530,12 @@ body {
 {
 	float: left;
 	width: 100px;
-	position:absolute;
+	position:fixed;
 	background:#FFF;
 	font-family:"微软雅黑";
+	bottom:237px;
+	z-index:4000;
+	
 }
 /*边栏设置 */
 
@@ -552,10 +555,6 @@ body {
 	text-align:center;
 	color:#FFF;
 	font-style:normal;
-}
-.sidecontent
-{
-	
 }
 
 /****左侧商品导航条****/
