@@ -207,6 +207,12 @@ body {
 .main {
 	width:900px;
 	margin:0 auto;
+	height:1300px;
+}
+
+.contant-list
+{
+	height:1250px;
 }
 
 .footer{
@@ -400,6 +406,44 @@ body {
 }
 /*浮动层 CSS 结束*/
 
+/*翻页功能 css*/
+.page
+{
+	width:405px;
+	height:50px;
+	margin:0 auto;
+	padding-top:20px;
+}
+
+.pageLink
+{
+	display:block;
+	background:#333;
+	float:left;
+	padding:7px 10px 7px 10px;
+	margin-right:5px;
+	color:#FFF;
+	font-weight:500;
+	text-align:center;
+	vertical-align:central;
+}
+
+.pageLink:hover
+{
+	text-decoration:none;
+	background:#900;
+}
+.pageLinkCurrent{
+	background:#900;
+}
+.pagedis{
+	background:#999;
+}
+.pagedis:hover{
+	background:#999;
+}
+/*翻页功能 css*/
+
 .go-top
 {
 	background:url(../img/rightNav/rightNavUp.jpg) no-repeat;
@@ -525,7 +569,7 @@ body {
 }
 
 /*left-nav css begin*/
-/* 左右分栏设置 */
+
 .leftzone 
 {
 	float: left;
